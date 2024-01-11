@@ -1,6 +1,6 @@
 import React from 'react';
 import { FooterInsta, FooterFacebook } from './Iconimg';
-import Footerlogo from '../assets/images/png/footerlogo.png';
+import Footerlogo from '../assets/images/webp/footerlogo.webp';
 
 const Footer = () => {
     return (

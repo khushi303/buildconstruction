@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Searchicon, Facebook, Tweeter, Instagram } from './Iconimg';
-import Imgheader from '../assets/images/png/buildImgheader.png';
+import Imgheader from '../assets/images/webp/buildImgheader.webp';
 
 const Header = () => {
     const [show, setshow] = useState(true)

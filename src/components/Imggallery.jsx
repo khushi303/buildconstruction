@@ -1,10 +1,10 @@
 import React from 'react';
-import Buildingimg1 from '../assets/images/png/buildingimg1.png'
-import Buildingimg2 from '../assets/images/png/buildingimg2.png'
-import Buildingimg3 from '../assets/images/png/buildingimg3.png'
-import Buildingimg4 from '../assets/images/png/buildingimg4.png'
-import Buildingimg5 from '../assets/images/png/buildingimg5.png'
-import Buildingimg6 from '../assets/images/png/buildingimg6.png'
+import Buildingimg1 from '../assets/images/webp/buildingimg1.webp'
+import Buildingimg2 from '../assets/images/webp/buildingimg2.webp'
+import Buildingimg3 from '../assets/images/webp/buildingimg3.webp'
+import Buildingimg4 from '../assets/images/webp/buildingimg4.webp'
+import Buildingimg5 from '../assets/images/webp/buildingimg5.webp'
+import Buildingimg6 from '../assets/images/webp/buildingimg6.webp'
 
 
 const Imggallery = () => {

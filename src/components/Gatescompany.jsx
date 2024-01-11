@@ -1,5 +1,5 @@
 import React from 'react';
-import Workerimg from '../assets/images/png/Workerimg.png'
+import Workerimg from '../assets/images/webp/Workerimg.webp';
 
 const Gatescompany = () => {
     return (

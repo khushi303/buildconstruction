@@ -1,6 +1,6 @@
 import React from 'react';
 import { Serviceplaybtn } from './Iconimg';
-import Whitehouseimg from '../assets/images/png/whitehouse.png';
+import Whitehouseimg from '../assets/images/webp/whitehouse.webp';
 
 const ConstructBuilding = () => {
     return (

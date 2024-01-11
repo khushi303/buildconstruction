@@ -1,7 +1,7 @@
 import React from 'react';
-import Crdimg1 from '../assets/images/png/loremimg1.png'
-import Crdimg2 from '../assets/images/png/loremimg2.png'
-import Crdimg3 from '../assets/images/png/loremimg3.png';
+import Crdimg1 from '../assets/images/webp/loremimg1.webp'
+import Crdimg2 from '../assets/images/webp/loremimg2.webp'
+import Crdimg3 from '../assets/images/webp/loremimg3.webp';
 import { Serviceplaybtn } from './Iconimg';
 
 const Cardlorem = () => {

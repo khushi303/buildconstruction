@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import Interiordesignimg from '../assets/images/png/interiordesignimg.png';
-// import Closebtn from '../assets/images/png/closebtn.png';
+import Interiordesignimg from '../assets/images/webp/interiordesignimg.webp';
 import { Serviceplaybtn, InteriorPlaybtn } from './Iconimg';
 
 const InteriorDesign = () => {

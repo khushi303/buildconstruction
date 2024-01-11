@@ -1,6 +1,6 @@
 import React from 'react'
 import { Serviceplaybtn } from './Iconimg';
-import buildingimg from '../assets/images/png/servicebuildingimg.png';
+import buildingimg from '../assets/images/webp/servicebuildingimg.webp';
 
 const Services = () => {
     return (

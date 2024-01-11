@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
-import Profileimg from '../assets/images/png/profileimg.png';
-import Profileimg1 from '../assets/images/png/sliderimg3.png';
+import Profileimg from '../assets/images/webp/profileimg.webp';
+import Profileimg1 from '../assets/images/webp/sliderimg3.webp';
 import { Fivestar, Sliderarrowprev, Sliderarrownext } from './Iconimg';
 
 const Testimonials = () => {
