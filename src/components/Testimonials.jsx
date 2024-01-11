@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import Profileimg from '../assets/images/png/profileimg.png';
+import Profileimg1 from '../assets/images/png/sliderimg3.png';
 import { Fivestar, Sliderarrowprev, Sliderarrownext } from './Iconimg';
 
 const Testimonials = () => {
@@ -32,7 +33,7 @@ const Testimonials = () => {
                         </div>
                         <div>
                             <div className='flex items-center justify-center flex-col'>
-                                <img src={Profileimg} alt="Profileimg" className='max-w-[126px] w-full' />
+                                <img src={Profileimg1} alt="Profileimg1" className='max-w-[126px] w-full' />
                                 <p className='text-[16px] font-bold mt-[19px] text-[#025066] mb-[30px]'>TREGSDKH</p>
                                 <Fivestar />
                                 <p className='text-[16px] font-normal leading-[139.687%] text-[rgba(2,80,102,0.70)] w-[469px] text-center mt-[18.95px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
@@ -41,6 +42,14 @@ const Testimonials = () => {
                         <div>
                             <div className='flex items-center justify-center flex-col'>
                                 <img src={Profileimg} alt="Profileimg" className='max-w-[126px] w-full' />
+                                <p className='text-[16px] font-bold mt-[19px] text-[#025066] mb-[30px]'>TREGSDKH</p>
+                                <Fivestar />
+                                <p className='text-[16px] font-normal leading-[139.687%] text-[rgba(2,80,102,0.70)] w-[469px] text-center mt-[18.95px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex items-center justify-center flex-col'>
+                                <img src={Profileimg1} alt="Profileimg1" className='max-w-[126px] w-full' />
                                 <p className='text-[16px] font-bold mt-[19px] text-[#025066] mb-[30px]'>TREGSDKH</p>
                                 <Fivestar />
                                 <p className='text-[16px] font-normal leading-[139.687%] text-[rgba(2,80,102,0.70)] w-[469px] text-center mt-[18.95px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
