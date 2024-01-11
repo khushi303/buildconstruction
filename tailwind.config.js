@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'BgHeader': "url('./assets/images/png/bg-header.png')",
-        'BgContact':"url('./assets/images/png/bgcontact.png')",
+        'BgHeader': "url('./assets/images/webp/bg-header.webp')",
+        'BgContact':"url('./assets/images/webp/bgcontact.webp')",
       },
       backgroundPosition: {
         'BgSize': "100% 100%"

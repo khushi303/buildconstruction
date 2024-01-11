@@ -14,7 +14,7 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { useState, useEffect } from 'react';
-import Backtotop from './assets/images/png/backtotoparrow.png';
+import Backtotop from './assets/images/webp/backtotoparrow.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
