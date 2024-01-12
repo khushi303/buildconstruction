@@ -29,7 +29,7 @@ const Imggallery = () => {
         },
     ]
     return (
-        <div id='shop' className='bg-[#025066] lg:pt-[91px] pt-[70px] pb-[70px] lg:pb-[92px]'>
+        <div id='shop' className='bg-[#025066] lg:pt-[91px] pt-[35px] pb-[70px] lg:pb-[92px]'>
             <div className='container mx-auto xl:max-w-[1320px] lg:px-4 px-6'>
                 <div className='flex flex-row flex-wrap justify-between'>
                     {Imgdata.map((a, index) => {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gallery = () => {
     return (
-        <div id='portfolio' className='lg:pt-[83px] pt-[70px] lg:pb-[17px] pb-[70px]'>
+        <div id='portfolio' className='lg:pt-[83px] pt-[80px] lg:pb-[17px] pb-[30px]'>
             <div className='container mx-auto xl:max-w-[1320px] lg:px-4 px-6'>
                 <div className='flex md:flex-row flex-col justify-between items-end'>
                     <div data-aos="zoom-out-down" className='border border-solid border-[#025066] bg-[rgba(196,196,196,0.00)] md:max-w-[141px] md:gap-0 gap-5 w-full flex md:flex-col flex-row md:justify-center justify-between px-4 md:py-0 py-6 items-center '>
