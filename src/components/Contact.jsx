@@ -67,10 +67,10 @@ const Contact = () => {
                             <div className='py-5 border-b border-solid border-[#025066]'>
                                 <p className='text-[16px] font-normal text-[#025066] text-center'>Alert Message</p>
                             </div>
-                            <div className='px-6 py-8'>
+                            <div className='px-6 py-7'>
                                 <h2 className='text-[20px] font-bold text-[#025066] text-center capitalize'>you have submit successfully</h2>
                             </div>
-                            <div className=' flex justify-end px-6'>
+                            <div className=' flex justify-center items-center px-6'>
                                 <button onClick={() => setAlertmsg(false)} className='text-[16px] font-normal text-[#025066] hover:text-white hover:bg-[#025066] transition-colors duration-300 ease-linear uppercase px-[30px] py-[8px] border border-solid border-[#025066] rounded-[8px]'>ok</button>
                             </div>
                         </div>
