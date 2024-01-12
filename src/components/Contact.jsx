@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
             {alertmsg ? (
                 <>
-                    <div className='fixed px-6 top-0 bottom-0 left-0 right-0 min-h-screen flex items-center justify-center'>
+                    <div className='fixed px-6 backdrop-blur-sm top-0 bottom-0 left-0 right-0 min-h-screen flex items-center justify-center'>
                         <div className='bg-lime-100 max-w-[500px] w-full rounded-[20px] pb-4'>
                             <div className='py-5 border-b border-solid border-[#025066]'>
                                 <p className='text-[16px] font-normal text-[#025066] text-center'>Alert Message</p>
