@@ -6,7 +6,7 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.target.reset();
+        e.preventDefault();
 
         emailjs.sendForm('service_31h180h', 'template_rxq3f9e', form.current, '1cJ95ExJ1P3ygeRiD')
             .then((result) => {
@@ -21,13 +21,13 @@ const Contact = () => {
                 <div className='flex flex-row flex-wrap'>
                     <div className='lg:w-1/2 w-full'>
                         <form ref={form} onSubmit={sendEmail}>
-                            <input data-aos="fade-up" type="text" name='user_name' placeholder='Your Name' className='py-[14px] px-[16px] text-[14px] lg:max-w-[594px] font-medium leading-[142.857%] text-[#4F4F4F]
+                            <input data-aos="fade-up" type="text" name='user_name' placeholder='Your Name' className='py-[14px] px-[16px] text-[14px] lg:max-w-[594px] font-medium leading-[142.857%] text-[#a7a7a7]
                              border border-solid border-[#025066] w-full rounded-[6px] outline-none mb-[14px]' />
-                            <input data-aos="fade-up" type="text" name='user_contact' placeholder='Phone Number' className='py-[14px] px-[16px] text-[14px] lg:max-w-[594px] font-medium leading-[142.857%] text-[#4F4F4F]
+                            <input data-aos="fade-up" type="text" name='user_contact' placeholder='Phone Number' className='py-[14px] px-[16px] text-[14px] lg:max-w-[594px] font-medium leading-[142.857%] text-[#a7a7a7]
                              border border-solid border-[#025066] w-full rounded-[6px] outline-none mb-[14px]' />
-                            <input data-aos="fade-up" type="text" name='user_email' placeholder='E-Mail' className='py-[14px] px-[16px] text-[14px] lg:max-w-[594px] font-medium leading-[142.857%] text-[#4F4F4F]
+                            <input data-aos="fade-up" type="text" name='user_email' placeholder='E-Mail' className='py-[14px] px-[16px] text-[14px] lg:max-w-[594px] font-medium leading-[142.857%] text-[#a7a7a7]
                              border border-solid border-[#025066] w-full rounded-[6px] outline-none mb-[14px]' />
-                            <textarea data-aos="fade-up" name="message" placeholder='Message' id="" cols="30" rows="5" className='py-[14px] px-[16px] outline-none border border-solid border-[#025066] resize-none w-full lg:max-w-[594px] text-[14px] rounded-[6px] font-medium leading-[142.857%] text-[#4F4F4F]'></textarea>
+                            <textarea data-aos="fade-up" name="message" placeholder='Message' id="" cols="30" rows="5" className='py-[14px] px-[16px] outline-none border border-solid border-[#025066] resize-none w-full lg:max-w-[594px] text-[14px] rounded-[6px] font-medium leading-[142.857%] text-[#a7a7a7]'></textarea>
                             <div data-aos="fade-up">
                                 <button type='submit' className='mt-[27px] rounded-[10px] hover:shadow-[0_3px_20px_rgba(2,80,120,1)] transition-all duration-300 ease-linear hover:scale-[1.012] bg-[#025066] px-[33px] py-[18px] text-[20px] font-medium text-white uppercase'>CONTACT NOW</button>
                             </div>
@@ -51,4 +51,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact;
