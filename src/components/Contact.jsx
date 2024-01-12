@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
             {alertmsg ? (
                 <>
-                    <div className='fixed backdrop-blur-sm top-0 bottom-0 left-0 right-0 flex items-center justify-center'>
+                    <div className='fixed px-6 top-0 bottom-0 left-0 right-0 min-h-screen flex items-center justify-center'>
                         <div className='bg-lime-100 max-w-[500px] w-full rounded-[20px] pb-4'>
                             <div className='py-5 border-b border-solid border-[#025066]'>
                                 <p className='text-[16px] font-normal text-[#025066] text-center'>Alert Message</p>
@@ -71,7 +71,7 @@ const Contact = () => {
                                 <h2 className='text-[20px] font-bold text-[#025066] text-center capitalize'>you have submit successfully</h2>
                             </div>
                             <div className=' flex justify-end px-6'>
-                                <button onClick={() => setAlertmsg(false)} className='text-[16px] font-normal text-[#025066] uppercase px-[30px] py-[8px] border border-solid border-[#025066] rounded-[8px]'>ok</button>
+                                <button onClick={() => setAlertmsg(false)} className='text-[16px] font-normal text-[#025066] hover:text-white hover:bg-[#025066] transition-colors duration-300 ease-linear uppercase px-[30px] py-[8px] border border-solid border-[#025066] rounded-[8px]'>ok</button>
                             </div>
                         </div>
                     </div>
