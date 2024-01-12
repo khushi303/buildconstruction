@@ -16,11 +16,11 @@ const Header = () => {
                 <div className='container mx-auto xl:max-w-[1320px] px-lg-3 px-6'>
                     <div className='flex items-center justify-end gap-[38px] sm:pt-[45px] sm:pb-[35px] py-6'>
                         <ul className={`${show ? 'flex md:flex-row items-center flex-col justify-center sm:gap-[52px] gap-[30px] bg-white max-md:min-h-screen transition-all duration-300 ease-linear max-md:fixed top-0 bottom-0 max-md:h-full left-[-100%] max-md:w-full z-[5]' : 'flex transition-all bg-white duration-300 ease-linear flex-row max-md:flex-col items-center sm:gap-[52px] gap-[30px] justify-center max-md:min-h-screen max-md:fixed top-0 bottom-0 max-md:h-full left-0 max-md:w-full z-[5]'}`}>
-                            <li><a onClick={() => setshow(!show)} href="#home" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-300 ease-linear'>HOME</a></li>
-                            <li><a onClick={() => setshow(!show)} href="#portfolio" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-300 ease-linear'>PORTFOLIO</a></li>
-                            <li><a onClick={() => setshow(!show)} href="#blog" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-300 ease-linear'>BLOG</a></li>
-                            <li><a onClick={() => setshow(!show)} href="#contact" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-300 ease-linear'>CONTACT</a></li>
-                            <li><a onClick={() => setshow(!show)} href="#shop" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-300 ease-linear'>SHOP</a></li>
+                            <li><a onClick={() => setshow(!show)} href="#home" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-500 ease-in-out'>HOME</a></li>
+                            <li><a onClick={() => setshow(!show)} href="#portfolio" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-500 ease-in-out'>PORTFOLIO</a></li>
+                            <li><a onClick={() => setshow(!show)} href="#blog" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-500 ease-in-out'>BLOG</a></li>
+                            <li><a onClick={() => setshow(!show)} href="#contact" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-500 ease-in-out'>CONTACT</a></li>
+                            <li><a onClick={() => setshow(!show)} href="#shop" className='font-normal navlink text-[16px] text-[#025066] no-underline transition-all duration-500 ease-in-out'>SHOP</a></li>
                         </ul>
                         <div className="">
                             <Searchicon />
@@ -40,7 +40,7 @@ const Header = () => {
                             <h1 data-aos="fade-down" className='lg:text-[55px] md:text-[72px] sm:text-[50px] text-[32px] 2xl:text-[72px] font-bold lg:max-w-[498px] text-white leading-[124.687%]'>Morbi facilisis nulla purus, ac</h1>
                             <p data-aos="fade-down" className='text-[18px] font-[normal max-w-[539px] text-white xl:mt-[42px] lg:mt-[25px] sm:mt-[30px] mt-[20px]'>Mauris viverra justo et dictum mattis. Donec massa felis, tempus nec erat id, fermentum rhoncus justo. Donec viverra quam nulla, id faucibus metus ullamcorp</p>
                             <div data-aos="fade-up">
-                                <button className='px-[33px] py-[18px] bg-white hover:shadow-[0_3px_20px_rgba(225,225,225,1)] transition-all duration-300 ease-linear hover:scale-[1.012] text-[#025066] rounded-[10px] text-[20px] font-medium xl:mt-[61px] lg:mt-[30px] sm:mt-[45px] mt-[30px]'>CONTACT NOW</button>
+                                <button className='px-[33px] py-[18px] bg-white hover:shadow-[0_3px_20px_rgba(225,225,225,1)] transition-shadow duration-300 ease-linear text-[#025066] rounded-[10px] text-[20px] font-medium xl:mt-[61px] lg:mt-[30px] sm:mt-[45px] mt-[30px]'>CONTACT NOW</button>
                             </div>
                             <div data-aos="fade-up" className='flex items-ceter gap-[13.94px] 2xl:mt-[173px] xl:mt-[70px] lg:mt-[40px] sm:mt-[70px] mt-[45px] pb-[23px]'>
                                 <Facebook />

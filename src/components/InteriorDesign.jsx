@@ -34,8 +34,8 @@ const InteriorDesign = () => {
             </div>
             {showmodal ? (
                 <>
-                    <div className='fixed z-[7] top-0 left-0 h-full min-h-screen backdrop-blur-sm w-full flex items-center justify-center bg-[rgba(2,80,102,0.67)]'>
-                        <div className='bg-white p-5 rounded-[5px] relative'>
+                    <div onClick={() => setshowmodal(false)} className='fixed z-[7] top-0 left-0 h-full min-h-screen backdrop-blur-sm w-full flex items-center justify-center bg-[rgba(2,80,102,0.67)]'>
+                        <div onClick={() => setshowmodal(true)} className='bg-white p-5 rounded-[5px] relative'>
                             <iframe className='sm:w-[550px] w-[300px] sm:h-[380px] h-[230px]' src="https://www.youtube.com/embed/j38ta0U59us?si=v1OlKL5WPEiGHKju" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay: clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             <div className='flex items-center justify-end mt-5'>
                                 <button onClick={() => setshowmodal(false)} className='mt-4 text-end py-3 rounded-[4px] group hover:bg-[#025066] px-8 border border-solid border-[#025066] transition-colors duration-300 ease-linear'><p className='text-[16px] font-medium group-hover:text-white text-[#025066]'>Close</p></button>
