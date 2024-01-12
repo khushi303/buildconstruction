@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='container mx-auto xl:max-w-[1320px] lg:px-4 px-6'>
                 <div className='flex lg:flex-row flex-col lg:justify-between lg:items-end pt-[72px] pb-[68px]'>
                     <div>
-                        <img src={Footerlogo} alt="Footerlogo" className='max-w-[87px] w-full' />
+                        <img src={Footerlogo} alt="Footerlogo" className='max-w-[87px] w-full cursor-pointer' />
                         <p className='text-[16px] font-normal leading-[139.687%] mt-[32px] text-white lg:max-w-[433px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s</p>
                         <div className='flex gap-[15px] items-center mt-[32px]'>
                             <FooterInsta />
