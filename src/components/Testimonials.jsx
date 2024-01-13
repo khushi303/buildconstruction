@@ -22,7 +22,7 @@ const Testimonials = () => {
                 <h3 data-aos="fade-left" className='text-[20px] font-medium text-black leading-[100%] text-center'>TESTIMONIALS</h3>
                 <h2 data-aos="fade-left" className='sm:text-[48px] text-[32px] font-bold text-[#025066] leading-[111%] text-center pt-[19px]'>What Clients say about us</h2>
                 <div data-aos="fade-up" className='mt-[45px] relative'>
-                    <Slider ref={slider} {...settings} className=''>
+                    <Slider ref={slider} {...settings}>
                         <div>
                             <div className='flex items-center justify-center flex-col'>
                                 <img src={Profileimg} alt="Profileimg" className='max-w-[126px] w-full' />

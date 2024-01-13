@@ -27,7 +27,7 @@ const InteriorDesign = () => {
                             <p className='text-[20px] font-medium text-black lg:text-end'>MAKE UNIQUE</p>
                             <h2 className='sm:text-[48px] text-[32px] font-bold text-[#025066] mt-4 lg:text-end leading-[117%]'>Solutions interior design</h2>
                             <p className='text-[16px] font-normal leading-[139.687%] lg:text-end mt-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. Vivamus eros nibh, dictum sed venenatis vitae, ornare eget magna. Etiam mattis, felis eu interdum posuere, justo neque dictum sapien, eu luctus neque nulla non ante. Quisque pharetra facilisis mauris a hendrerit. Donec rutrum maximus turpis id luctus. In gravida pulvinar elit, a auctor mauris scele risque ac. Aliquam facilisis tortor elit, auctor semper est ve stibulum ut. Nam sit amet libero vulputate, faucibus purus et, vestibulum sem. Nunc ac nulla erat. Nulla facilis</p>
-                            <button> <a href="" className='flex items-center lg:justify-end gap-1 xl:mt-[29px] lg:mt-[14px] sm:mt-[25px] mt-[20px]'><span className='text-[16px] font-bold text-[#025066] leading-[120.187%]'>VIEW PROJECTS </span><Serviceplaybtn /></a></button>
+                            <button className='lg:ml-auto'><a href="" className='flex items-center lg:justify-end gap-1 xl:mt-[29px] lg:mt-[14px] sm:mt-[25px] mt-[20px]'><span className='text-[16px] font-bold text-[#025066] leading-[120.187%]'>VIEW PROJECTS </span><Serviceplaybtn /></a></button>
                         </div>
                     </div>
                 </div>
